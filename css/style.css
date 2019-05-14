@@ -30,6 +30,10 @@ body {
   float: left;
 }
 
+.contact__button:hover {
+  color: #333;
+}
+
 .theme {
   background: #f2f2f2;
 }
@@ -137,14 +141,6 @@ body {
     width: 1100px;
   }
 
-  .header {
-    background: #fff;
-    position: sticky;
-    top: 0;
-    width: 100%;
-    z-index: 2;
-  }
-
   .contact__button {
     background: #74cfae;
     color: #fff;
@@ -156,9 +152,6 @@ body {
     cursor: pointer;
   }
 
-  .contact__button:hover {
-    color: #333;
-  }
 
   .theme__inner {
     padding: 250px 0;
@@ -170,18 +163,6 @@ body {
     font-family: Raleway;
     font-size: 90px;
     font-weight: 700;
-  }
-
-  .theme__text {
-    color: #c0c0c0;
-    font-size: 30px;
-    margin-top: 20px;
-  }
-
-
-
-  .section-what {
-    background: #74cfae;
   }
 
   .section-what__inner {
@@ -297,10 +278,6 @@ body {
     text-decoration: none;
     transition: .3s;
     float: right;
-  }
-
-  .contact__button:hover {
-    color: #333;
   }
 
 
