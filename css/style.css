@@ -448,13 +448,13 @@ body {
 
   .section-what__text__wrap {
     word-break: break-all;
+    margin-top: 20px;
   }
 
   .section-what__title {
     color: #fff;
     font-family: Raleway;
     font-size: 24px;
-    margin-top: 20px;
   }
 
   .section-what__text {
@@ -475,6 +475,9 @@ body {
     flex-direction: column;
   }
 
+  .article__image__wrap > a {
+    max-width: 300px;
+  }
 
   .article__image__wrap > a:nth-child(4n) {
     margin-top: 80px;
